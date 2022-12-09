@@ -1,0 +1,20 @@
+Para declarar una matriz se pone:
+tipo nombre[nfilas][ncolumnas];
+
+0 1 n-1
+[][][] 0
+[][][] 1
+[][][] n-1
+
+agregar elementos se hace de la manera:
+
+int n[2][3] = {1,2,3,4,5,6}
+o
+int n[2][3] = {{1,2,3},{4,5,6}}
+
+y se ve:
+
+[1][2][3]
+[4][5][6]
+
+Se accede como un plano cartesiano que inicia en 0,0.
